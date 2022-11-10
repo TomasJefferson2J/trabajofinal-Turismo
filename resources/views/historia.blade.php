@@ -116,7 +116,6 @@ img {vertical-align: middle;}
   text-align: center;
   color: black;
                 font-size: 50px;
-                text-align:center;
                 margin: auto;
                 padding: 10px;
                 font-style: italic
@@ -124,14 +123,12 @@ img {vertical-align: middle;}
 </style>
 </head>
 <body>
-<header class="header">
-	
-			<header>
-				<h1>Lugares Turisticos</h1>
-			</header>
+    <header class="header">
+	    <header>
+		    <h1>Lugares Turisticos</h1>
+	    </header>
 
-	</footer> <!-- / #main-footer -->
-<div class="slideshow-container">
+        <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
@@ -201,7 +198,9 @@ function showSlides(n) {
                 <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <h1 class="h2">
-                                    Conoce los mejores lugares para viajar y pasar un momento agradable.
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+
+    </p>
                                     </h1>
                                 </div>
                             </div>
