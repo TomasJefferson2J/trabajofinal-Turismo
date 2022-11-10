@@ -200,10 +200,9 @@ function showSlides(n) {
                                     <h1 class="h2">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
 
-    </p>
+                                    </p>
                                     </h1>
                                 </div>
                             </div>
-
 </body>
 </html> 
