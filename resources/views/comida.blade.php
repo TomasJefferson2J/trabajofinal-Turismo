@@ -62,46 +62,51 @@ a{
   }
 }
 
+
+
+
+
 </style>
 
 <body>
-<div class="wrap column-4 columns">
 
-<div class="tarjeta-rest" style="background: url(https://es.cravingsjournal.com/wp-content/uploads/2018/08/ceviche-con-leche-de-tigre-2.jpg) center; background-size: cover;">
-  <div class="wrap-text_tarjeta-rest">
-    <h3>Ceviche</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+    <div class="wrap column-4 columns">
 
-    </p>
-  </div>
-</div>
+    <div class="tarjeta-rest" style="background: url(https://es.cravingsjournal.com/wp-content/uploads/2018/08/ceviche-con-leche-de-tigre-2.jpg) center; background-size: cover;">
+      <div class="wrap-text_tarjeta-rest">
+        <h3>Ceviche</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
 
-<div class="tarjeta-rest" style="background: url(https://lacocinadevero.com/wp-content/uploads/2022/04/causa-limena-con-pulpo-scaled-e1649622468242.jpg) center; background-size: cover;">
-  <div class="wrap-text_tarjeta-rest">
-    <h3>Causa rellena</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+        </p>
+      </div>
+    </div>
 
-    </p>
-  </div>
-</div>
+    <div class="tarjeta-rest" style="background: url(https://lacocinadevero.com/wp-content/uploads/2022/04/causa-limena-con-pulpo-scaled-e1649622468242.jpg) center; background-size: cover;">
+      <div class="wrap-text_tarjeta-rest">
+        <h3>Causa rellena</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
 
-<div class="tarjeta-rest" style="background: url(https://www.comedera.com/wp-content/uploads/2022/03/Tamales-colombianosshutterstock_2045038238.jpg) center; background-size: cover;">
-  <div class="wrap-text_tarjeta-rest">
-    <h3>Tamal</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+        </p>
+      </div>
+    </div>
 
-    </p>
-  </div>
-</div>
+    <div class="tarjeta-rest" style="background: url(https://www.comedera.com/wp-content/uploads/2022/03/Tamales-colombianosshutterstock_2045038238.jpg) center; background-size: cover;">
+      <div class="wrap-text_tarjeta-rest">
+        <h3>Tamal</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
 
-<div class="tarjeta-rest" style="background: url(https://www.paulinacocina.net/wp-content/uploads/2021/12/arroz-chaufa-peruano-receta.jpg) center; background-size: cover;">
-  <div class="wrap-text_tarjeta-rest">
-    <h3>Chaufa</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+        </p>
+      </div>
+    </div>
 
-    </p>
-  </div>
-</div>
+    <div class="tarjeta-rest" style="background: url(https://www.paulinacocina.net/wp-content/uploads/2021/12/arroz-chaufa-peruano-receta.jpg) center; background-size: cover;">
+      <div class="wrap-text_tarjeta-rest">
+        <h3>Chaufa</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati veniam distinctio dignissimos, sequi corporis nobis voluptate inventore, quisquam est illo perspiciatis cupiditate? Ducimus, ea sapiente?
+
+        </p>
+      </div>
+    </div>
 
 </div>
 </body>
