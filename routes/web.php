@@ -25,3 +25,7 @@ Route::get('/Historia', function () {
 Route::get('/comida', function () {
     return view('comida');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
