@@ -86,7 +86,21 @@
                 </div>
             @endif
     </nav>
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>EL PLACER DE VIAJAR</h1>
+                            <p class="p-heading p-large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio officia labore error cum neque saepe minus voluptatum dolores dolore eos.</p>
 
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </header> 
 
 
 
