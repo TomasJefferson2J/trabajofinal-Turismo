@@ -15,6 +15,9 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    
+    
+    
     <style>
         body {
   background-image: url('https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d');
@@ -22,7 +25,10 @@
 	background-size:cover;
 	position:relative;
 }
-    </style>
+   
+   
+   
+   </style>
 </head>
 <body>
     <div id="app">

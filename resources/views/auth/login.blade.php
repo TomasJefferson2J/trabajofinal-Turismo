@@ -1,9 +1,31 @@
+<style>
+    .btn.btn-primary{
+width: 100%;
+background: #12324;
+border: none;
+padding: 12px;
+margin: 16px 0;
+font-size: 16px;
+border-radius: 0.375rem;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+text-align: center;
+text-decoration: none;
+color: #fff;
+backface-visibility: hidden
+
+}
+</style>
+
 @extends('layouts.app')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-5">
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
@@ -40,7 +62,7 @@
                         </div>
 
                         <div class="row mb-3">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-3">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
 
@@ -52,7 +74,7 @@
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
+                            <div class="col-md-6 offset-md-3">
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Login') }}
                                 </button>
