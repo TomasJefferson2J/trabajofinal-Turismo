@@ -15,96 +15,335 @@
         </style>
 
         <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-            .hi{
-                
-            text-shadow: 2px 2px 2px blue;
-            text-align: center;
-            width: 100%;
-            line-height: 1em;    
-            color: white;
-            font-size: calc(8vh + 2vw);
-            font-weight:900;
-                
-                
-                
-            }
-            .h2{
-                color: red;
-                font-size: 12px;
-                margin: 8px 0px 0px;
-                font-style: italic
+             body,
+            html {
+                width: 100%;
+                height: 100%;
             }
 
+            body, p {
+                color: #787976; 
+                font: 400 1rem/1.5625rem "Open Sans", sans-serif;
+            }
+
+            h1 {
+                color: #484a46;
+                font: 700 2.5rem/3rem "Montserrat", sans-serif;
+            }
+
+            
+            /*     02. Preloader     */
+            .spinner-wrapper {
+                position: fixed;
+                z-index: 999999;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: #113448;
+            }
+
+            /*     03. Navigation     */
+
+            .navbar-custom {
+                padding-top: 0.375rem;
+                padding-bottom: 0.375rem;
+                background-color: #113448;
+                box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+                font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
+                transition: all 0.2s;
+            }
+
+            .navbar-custom .navbar-brand {
+                font-size: 0;
+            }
+
+            .navbar-custom .navbar-brand.logo-image img {
+                width: 7.0625rem;
+                height: 2rem;
+
+            }
+
+            .navbar-custom .navbar-brand.logo-text {
+                margin-top: 0.25rem;
+                margin-bottom: 0.25rem;
+                font: 700 2.25rem/1.5rem "Montserrat", sans-serif;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .navbar-custom .navbar-nav {
+                margin-top: 0.75rem;
+                margin-bottom: 0.5rem;
+            }
+
+            .navbar-custom .nav-item .nav-link {
+                padding: 0.625rem 0.75rem 0.625rem 0.75rem;
+                color: #fff;
+                text-decoration: none;
+                transition: all 0.2s ease;
+            }
 
 
 
 
 
-            .cabezera-menu{
-	background:url(https://cruisetogalapagos.com/blog/wp-content/uploads/2020/12/cordillera-huayhuash-peru-mountains.jpg) no-repeat center;
-	background-attachment:fixed;
-	background-size:cover;
-	position:relative;
-}
 
+
+
+            .header {
+                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d') center center no-repeat;
+                background-size: cover;
+            }
+
+            .header .header-content {
+                padding-top: 8rem;
+                padding-bottom: 2.125rem;
+                text-align: center;
+            }
+
+            .header .text-container {
+                margin-bottom: 3rem;
+            }
+
+            .header h1 {
+                margin-bottom: 0.5rem;
+                color: #fff;
+            }
+
+            .header .p-large {
+                margin-bottom: 2rem;
+                color: #dfe5ec;
+            }
+
+            .header .btn-solid-lg {
+                margin-right: 0.5rem;
+                margin-bottom: 1.25rem;
+            }
+
+
+
+
+
+
+            /* Min-width width 768px */
+            @media (min-width: 768px) {
+                
+                /* General Styles */
+
+
+                /* Navigation */
+                .navbar-custom {
+                    padding: 2.125rem 1.5rem 2.125rem 2rem;
+                    box-shadow: none;
+                    background: transparent;
+                }
+                
+                .navbar-custom .navbar-brand.logo-text {
+                    color: #fff;
+                }
+
+                .navbar-custom .navbar-nav {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+
+
+                .navbar-custom .nav-item .nav-link:hover,
+                .navbar-custom .nav-item .nav-link.active {
+                    color: #14bf98;
+                }
+
+                .navbar-custom.top-nav-collapse {
+                    padding: 0.375rem 1.5rem 0.375rem 2rem;
+                    box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+                    background-color: #113448;
+                }
+
+                /* Header */
+                .header .header-content{
+                    padding-top: 14rem;
+                    padding-bottom: 15rem;
+                }
+            }
+
+
+
+            .piedepaginat {
+                padding-top: 1rem;
+                padding-bottom: 0.5rem;
+                background-color: #113448;
+                text-align: center;
+            }
+
+            .piedepaginat p,
+            .piedepaginat a {
+                color: #dfe5ec;
+                text-decoration: none;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* bootstrap */
+
+                
+                body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+            }
+
+  
+            .nav {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            }
+
+            .nav-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            }
+
+
+            .nav-tabs .nav-item {
+            margin-bottom: -1px;
+            }
+
+
+            .navbar-nav {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+            }
+
+            @media (min-width: 768px) {
+            .navbar-expand-md {
+                -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+                -ms-flex-pack: start;
+                justify-content: flex-start;
+            }
+            .navbar-expand-md .navbar-nav {
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+            .navbar-expand-md .navbar-nav .dropdown-menu {
+                position: absolute;
+            }
+            .navbar-expand-md .navbar-nav .nav-link {
+                padding-right: 0.5rem;
+                padding-left: 0.5rem;
+            }
+            .navbar-expand-md > .container,
+            .navbar-expand-md > .container-fluid {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            }
+            .navbar-expand-md .navbar-collapse {
+                display: -ms-flexbox !important;
+                display: flex !important;
+                -ms-flex-preferred-size: auto;
+                flex-basis: auto;
+            }
+            .navbar-expand-md .navbar-toggler {
+                display: none;
+            }
+            }
+
+            .fixed-top {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            }
+
+            .ml-auto,
+            .mx-auto {
+            margin-left: auto !important;
+            }
             
         </style>
     </head>
     
     <body data-spy="scroll" data-target=".fixed-top">
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        @if (Route::has('login'))
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault"> 
-                        <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+            @if (Route::has('login'))
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault"> 
+                            <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">COMIDA</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link page-scroll" href="#services">SERVICES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                @auth
+                                    <a href="{{ url('/home') }}" class="nav-link page-scroll">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                @else
+                                        <a href="{{ route('login') }}" class="nav-link page-scroll">LOG IN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    @if (Route::has('register'))
+                                        <a href="{{ route('register') }}" class="nav-link page-scroll">REGISTER</a>
+                                    </li>
+                                    @endif
+                                @endauth
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">COMIDA</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link page-scroll" href="#services">SERVICES</a>
-                                </li>
-                                <li class="nav-item">
-                            @auth
-                                <a href="{{ url('/home') }}" class="nav-link page-scroll">Home</a>
-                                </li>
-                                <li class="nav-item">
-                            @else
-                                    <a href="{{ route('login') }}" class="nav-link page-scroll">Log in</a>
-                                </li>
-                                <li class="nav-item">
-                                @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="nav-link page-scroll">Register</a>
-                                </li>
-                                @endif
-                            @endauth
-                            </li>
-                </div>
-            @endif
-    </nav>
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-container">
-                            <h1>EL PLACER DE VIAJAR</h1>
-                            <p class="p-heading p-large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio officia labore error cum neque saepe minus voluptatum dolores dolore eos.</p>
-
-                        </div>
+                    </div>
+                @endif
+        </nav>
+        <header id="header" class="header">
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-container">
+                                <h1>EL PLACER DE VIAJAR</h1>
+                                <p class="p-heading p-large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio officia labore error cum neque saepe minus voluptatum dolores dolore eos.</p>
+                            </div>
+                        </div> 
                     </div> 
                 </div> 
             </div> 
-        </div> 
-    </header> 
-
-
-
-
-    
+        </header> 
+        <div class="piedepaginat">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">El placer de viajar</a></p>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
 </body>
 </html>
