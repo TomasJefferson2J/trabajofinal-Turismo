@@ -317,6 +317,9 @@
                                     <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/">WELCOME</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">DESTINOS</a>
                                 </li>
                                 <li class="nav-item">

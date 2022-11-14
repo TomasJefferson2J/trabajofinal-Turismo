@@ -790,6 +790,9 @@ body {
                                 <li class="nav-item">
                                     <a class="nav-link page-scroll" href="http://127.0.0.1:8000/">WELCOME</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">DESTINOS</a>
+                                </li>
 
                                 <li class="nav-item">
                             @auth
@@ -911,7 +914,7 @@ body {
                                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sapiente, nostrum blanditiis vero at ut eligendi mollitia nesciunt atque maxime unde quam aperiam dolor rerum repudiandae beatae provident a voluptas molestias repellat incidunt consectetur. Alias, ad. Nam ratione consequatur aliquid consequuntur veritatis facere vero provident, eaque, tempora ipsa unde deleniti?
                                             </p>
                                         </div>
-                                        <span class="offer-price">S/100</span>
+                                        
                                     </div>
                                 </div>
 
@@ -924,7 +927,7 @@ body {
                                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad quos dolore pariatur obcaecati voluptates doloremque incidunt debitis earum ullam, autem eveniet quasi error quisquam porro, illum est corporis nostrum maiores alias ex. Voluptatibus, a est deserunt, quaerat nostrum asperiores ad expedita ut recusandae atque neque incidunt. Voluptatum id ducimus ipsa..
                                             </p>
                                         </div>
-                                        <span class="offer-price">S/100</span>
+                                        
                                     </div>
                                 </div>
 
@@ -937,7 +940,7 @@ body {
                                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, libero nisi amet voluptatibus repellendus vero, distinctio incidunt totam rerum magni obcaecati officiis provident nemo aliquam voluptas suscipit reiciendis molestias. Saepe officiis molestias blanditiis itaque. Corporis facilis labore reprehenderit iure facere ea dolore amet perspiciatis odio, voluptates, quas, exercitationem ducimus similique!
                                             </p>
                                         </div>
-                                        <span class="offer-price">$100</span>
+                                       
                                     </div>
                                 </div>
 
@@ -950,7 +953,7 @@ body {
                                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat blanditiis illo facilis nobis ullam! Sequi nulla, autem quasi est accusamus assumenda tenetur error molestiae ipsum pariatur aut laborum delectus aspernatur dignissimos? Reiciendis quam magnam sequi vitae, sed veritatis deleniti ad aliquam corporis placeat, sunt dolor quo rem. Eaque, voluptate beatae!
                                             </p>
                                         </div>
-                                        <span class="offer-price">S/100</span>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
@@ -962,7 +965,7 @@ body {
                                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam facere ea error velit vero rem dicta, alias natus animi in officia non a et iste impedit quae distinctio sed magni? Asperiores incidunt rerum tempore necessitatibus quaerat voluptates. Veniam maiores molestiae sit consectetur possimus, eum perspiciatis optio impedit minus modi maxime ab beatae exercitationem ex magni repellendus ad! Mollitia sed, ut dolorum dolore facere expedita similique eveniet cupiditate fuga praesentium voluptates doloremque beatae laborum ipsa ad. Nemo, iusto.s.
                                             </p>
                                         </div>
-                                        <span class="offer-price">S/100</span>
+                                        
                                     </div>
                                 </div>
 
