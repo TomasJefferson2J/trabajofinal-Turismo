@@ -30,7 +30,7 @@
    
    </style>
 </head>
-<body>
+<body >
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -49,6 +49,16 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/">WELCOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">DESTINOS</a>
+                                </li>
+                                <li class="nav-item">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))

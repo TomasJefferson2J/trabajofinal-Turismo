@@ -18,6 +18,8 @@ color: #fff;
 backface-visibility: hidden
 
 }
+
+
 </style>
 
 @extends('layouts.app')

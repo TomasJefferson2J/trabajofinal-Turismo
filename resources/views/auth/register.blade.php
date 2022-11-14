@@ -41,7 +41,7 @@ backface-visibility: hidden
                             <label for="name" class="col-md-3 col-form-label text-md-end">{{ __('') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Ingrese su Nombre" name="email" value="{{ old('email') }}" required autocomplete="email">
+                            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Ingrese su nombre" name="name" value="{{ old('name') }}" required autocomplete="name">
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
