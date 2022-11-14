@@ -508,6 +508,71 @@
             .mx-auto {
             margin-left: auto !important;
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             
         </style>
     </head>
@@ -523,9 +588,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link page-scroll" href="http://127.0.0.1:8000/">WELCOME</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link page-scroll" href="#services">SERVICES</a>
-                                </li>
+
                                 <li class="nav-item">
                             @auth
                                 <a href="{{ url('/home') }}" class="nav-link page-scroll">Home</a>
