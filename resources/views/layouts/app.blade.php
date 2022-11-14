@@ -20,7 +20,7 @@
     
     <style>
         body {
-  background-image: url('https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d');
+  background-image: url('http://c.files.bbci.co.uk/7190/production/_110527092_machu.jpg');
   background-attachment:fixed;
 	background-size:cover;
 	position:relative;

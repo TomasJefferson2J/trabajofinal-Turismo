@@ -15,7 +15,7 @@
         </style>
 
         <style>
-             body,
+            body,
             html {
                 width: 100%;
                 height: 100%;
@@ -32,7 +32,6 @@
             }
 
             
-            /*     02. Preloader     */
             .spinner-wrapper {
                 position: fixed;
                 z-index: 999999;
@@ -43,7 +42,9 @@
                 background: #113448;
             }
 
-            /*     03. Navigation     */
+
+
+
 
             .navbar-custom {
                 padding-top: 0.375rem;
@@ -92,7 +93,7 @@
 
 
             .header {
-                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('https://c.wallhere.com/photos/26/85/nature_mountains_sky-34185.jpg!d') center center no-repeat;
+                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('http://c.files.bbci.co.uk/7190/production/_110527092_machu.jpg') center center no-repeat;
                 background-size: cover;
             }
 
@@ -126,13 +127,12 @@
 
 
 
-            /* Min-width width 768px */
+
             @media (min-width: 768px) {
                 
-                /* General Styles */
 
 
-                /* Navigation */
+
                 .navbar-custom {
                     padding: 2.125rem 1.5rem 2.125rem 2rem;
                     box-shadow: none;
@@ -160,7 +160,7 @@
                     background-color: #113448;
                 }
 
-                /* Header */
+
                 .header .header-content{
                     padding-top: 14rem;
                     padding-bottom: 15rem;
@@ -181,6 +181,28 @@
                 color: #dfe5ec;
                 text-decoration: none;
             }
+            .header h1 {
+              font: 700 3.5rem/4rem "Montserrat", sans-serif;
+            }
+
+            .header .header-content {
+              padding-top: 13rem;
+              padding-bottom: 7.5rem;
+            }
+
+            .header .header-content {
+              padding-top: 14rem;
+              padding-bottom: 15rem;
+            }
+
+            .header .text-container {
+              margin-top: 6.5rem;
+            }
+
+            .header .header-content {
+              padding-top: 14.75rem;
+              padding-bottom: 17.5rem;
+            }
 
 
 
@@ -191,13 +213,9 @@
 
 
 
-
-
-
-                /* bootstrap */
 
                 
-                body {
+            body {
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
             font-size: 1rem;
@@ -290,60 +308,60 @@
         </style>
     </head>
     
-    <body data-spy="scroll" data-target=".fixed-top">
-        <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-            @if (Route::has('login'))
-                    <div class="collapse navbar-collapse" id="navbarsExampleDefault"> 
-                            <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">COMIDA</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link page-scroll" href="#services">SERVICES</a>
-                                    </li>
-                                    <li class="nav-item">
-                                @auth
-                                    <a href="{{ url('/home') }}" class="nav-link page-scroll">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                @else
-                                        <a href="{{ route('login') }}" class="nav-link page-scroll">LOG IN</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    @if (Route::has('register'))
-                                        <a href="{{ route('register') }}" class="nav-link page-scroll">REGISTER</a>
-                                    </li>
-                                    @endif
-                                @endauth
+<body data-spy="scroll" data-target=".fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        @if (Route::has('login'))
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault"> 
+                        <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/Historia">HISTORIA</a>
                                 </li>
-                    </div>
-                @endif
-        </nav>
-        <header id="header" class="header">
-            <div class="header-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-container">
-                                <h1>EL PLACER DE VIAJAR</h1>
-                                <p class="p-heading p-large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio officia labore error cum neque saepe minus voluptatum dolores dolore eos.</p>
-                            </div>
-                        </div> 
-                    </div> 
-                </div> 
-            </div> 
-        </header> 
-        <div class="piedepaginat">
-        <div class="container">
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="http://127.0.0.1:8000/comida">COMIDA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link page-scroll" href="#services">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                            @auth
+                                <a href="{{ url('/home') }}" class="nav-link page-scroll">Home</a>
+                                </li>
+                                <li class="nav-item">
+                            @else
+                                    <a href="{{ route('login') }}" class="nav-link page-scroll">LOG IN</a>
+                                </li>
+                                <li class="nav-item">
+                                @if (Route::has('register'))
+                                    <a href="{{ route('register') }}" class="nav-link page-scroll">REGISTER</a>
+                                </li>
+                                @endif
+                            @endauth
+                            </li>
+                </div>
+            @endif
+    </nav>
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="p-small">El placer de viajar</a></p>
+                        <div class="text-container">
+                            <h1>EL PLACER DE VIAJAR</h1>
+                            <p class="p-heading p-large">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio officia labore error cum neque saepe minus voluptatum dolores dolore eos.</p>
+                        </div>
                     </div> 
                 </div> 
             </div> 
-        </div>
+        </div> 
+    </header> 
+    <div class="piedepaginat">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">El placer de viajar</a></p>
+                </div> 
+            </div> 
+        </div> 
+    </div>
 </body>
 </html>
